@@ -12,3 +12,9 @@ print(f"你好，{name}！")
 
 password=input("请输入你的密码：")
 print(f"你好，{name}！你的密码是{password}")
+
+#调用配置函数
+import config
+config.get_config()
+print(f"配置文件中的姓名是{name}，密码是{password}")
+ 
