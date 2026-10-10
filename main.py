@@ -9,3 +9,6 @@ print(result)
 
 name=input("请输入你的姓名：")
 print(f"你好，{name}！")
+
+password=input("请输入你的密码：")
+print(f"你好，{name}！你的密码是{password}")
