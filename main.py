@@ -17,4 +17,11 @@ print(f"你好，{name}！你的密码是{password}")
 import config
 config.get_config()
 print(f"配置文件中的姓名是{name}，密码是{password}")
- 
+
+
+work=input("请输入你的工作：")
+print(f"你好，{name}！你的工作是{work}")
+
+#你的职业   
+job=input("请输入你的职业：")
+print(f"你好，{name}！你的职业是{job}")
